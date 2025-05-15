@@ -13,5 +13,6 @@ app.use("/api/todos", todoRoutes);
 
 // Khởi động server
 app.listen(ENV.Port, () => {
+  // eslint-disable-next-line no-console
   console.log(`🚀 Server running on http://localhost:${ENV.Port}`);
 });
